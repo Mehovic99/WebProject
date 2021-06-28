@@ -1,0 +1,11 @@
+{%extends "base.html" %}
+
+{%block title %} Catalog {%endblock%}
+{% block body%}
+  {%for p in products %}
+    {{p.name}}
+    {{p.product_id}}
+    {{p.price}}
+    {{p.picture}}
+  {% endfor %}
+{% endblock %}
