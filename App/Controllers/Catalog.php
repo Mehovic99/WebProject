@@ -7,8 +7,10 @@ class Catalog extends \Core\Controller
 {
   public function productsAction()
   {
-    View:renderTemplate('Home/index.html');
+    View:renderTemplate('Catalog/index.html', [
+      'products' => User::getAll();
+    ]);
   }
-  
+
 }
  ?>
