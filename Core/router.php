@@ -108,4 +108,4 @@ class Router
 
         return $namespace;
     }
-?>
+}
