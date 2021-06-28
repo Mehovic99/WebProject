@@ -3,9 +3,9 @@
 {%block title %} Catalog {%endblock%}
 {% block body%}
   {%for p in products %}
-    {{p.name}}
-    {{p.product_id}}
-    {{p.price}}
-    {{p.picture}}
+    <br>name:   {{p.name}}
+    <br>id:   {{p.product_id}}
+    <br>price:   {{p.price}}
+    <br>picture:   {{p.picture}}
   {% endfor %}
 {% endblock %}
