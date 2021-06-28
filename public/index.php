@@ -1,6 +1,6 @@
 <?php
 
-require dirname(__DIR__) . '/vendor/autoload.php';
+require dirname('D:\xampp\php\PEAR) . '/vendor/autoload.php';
 
 error_reporting(E_ALL);
 set_error_handler('Core\Error::errorHandler');
